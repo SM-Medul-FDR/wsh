@@ -1,0 +1,97 @@
+.intro {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  
+}
+
+/* floating small hearts */
+.intro::before,
+.intro::after {
+  content: "💖 💕 💗 💓 💞";
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  animation: floatHearts 6s linear infinite;
+  font-size: 2rem;
+}
+
+.intro::after {
+  animation-delay: 3s;
+}
+
+@keyframes floatHearts {
+  0% {
+    top: 100%;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    top: -20%;
+    opacity: 0;
+  }
+}
+
+/* Big love heart */
+.love-container {
+  font-size: 10rem;
+  cursor: pointer;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+/* Hint text */
+.hint {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+  .love-container {
+    font-size: 7rem; /* smaller heart */
+  }
+
+  .intro::before,
+  .intro::after {
+    font-size: 1.5rem; /* smaller floating hearts */
+  }
+
+  .hint {
+    font-size: 1rem;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .love-container {
+    font-size: 5rem;
+  }
+
+  .intro::before,
+  .intro::after {
+    font-size: 1.2rem;
+  }
+
+  .hint {
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+}
