@@ -29,8 +29,21 @@ export default function WishPage() {
       </audio>
       <div id="balloon-container"></div>
       <div className="message">
-        <h1>🎉 Happy Birthday 🎉</h1>
-        <p>Wishing you a day filled with love and joy! ❤️</p>
+        <h1> Happy Birthday </h1>
+        
+        <p className="p2">
+            Happy Birthday, Marjana. Just as this day is special for you, it is equally special for me. I always wish for you to stay happy, for pain to never touch you, and for you to never remain in a place where sorrow lives.
+
+            I found you, yet I lost you — and that pain will stay with me for a lifetime. If I had never hidden my emotions and weaknesses from you, maybe things wouldn’t have turned out this way. I was wrong! But now, I have changed. Now I know what I truly want… losing you has helped me find myself. “Mialwwueo”… maybe!
+
+            Anyway, I won’t look back anymore. Today is a beautiful day, and I hope yours will be filled with love, smiles, and joy.</p>
+<hr />
+        <p className="p1">
+            Happy Birthday, Marjana. আজকের এই দিনটা তোমার কাছে যেমন বিশেষ, আমার কাছেও তেমনই বিশেষ। আমি সবসময় চাই তুমি ভালো থাকো, কষ্ট যেন তোমাকে কখনো স্পর্শ না করে। যেখানে কষ্ট পাবে, সেখানে যেন তুমি কখনোই না থাকো।
+
+            তোমাকে আমি পেয়েও হারিয়েছি — এই কষ্ট আমার সারাজীবনের। আমার আবেগ আর দুর্বলতার কথা তোমাকে না বললে হয়তো আজ এমনটা হতো না। I was wrong! কিন্তু এখন আমি বদলে গেছি, এখন আমি জানি আমি কী চাই… তোমাকে হারিয়ে আমি নিজেকে চিনেছি। “Mialwwueo”… Maybe!
+
+            যাই হোক, আর অতীতে ফিরব না। আজ তোমার জন্য একটা সুন্দর দিন। আশা করি তোমার দিনটা ভালোবাসা, হাসি আর আনন্দে ভরে উঠবে.</p>
         <button onClick={() => navigate("/")}>Back to Home</button>
       </div>
     </div>

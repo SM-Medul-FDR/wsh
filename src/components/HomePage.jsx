@@ -51,8 +51,8 @@ export default function HomePage() {
 
       <div className="overlay">
         <h1>🎂 Welcome to Your Special Day 🎂</h1>
-        <p>Click below to see your surprise!</p>
-        <button onClick={() => handleClick("/wish")}>See The Surprise</button>
+        <p>Click to go to the next page</p>
+        <button onClick={() => handleClick("/wish")}>Click here</button>
       </div>
     </div>
   );
