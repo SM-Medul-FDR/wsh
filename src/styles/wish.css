@@ -4,7 +4,7 @@
 
 /* Full page styling */
 .wish {
-  background: linear-gradient(to top, #ffe4e1, #ffb6c1);
+  background: linear-gradient(to top, #42bebea6, #cee95896);
   /* height: 100vh; */
   overflow: hidden;
   display: flex;
@@ -49,13 +49,14 @@
 @keyframes floatUp {
   0% {
     transform: translateY(0) rotate(0deg);
-    opacity: 1;
+    opacity: 0;
   }
   50% {
-    transform: translateY(-50vh) rotate(3deg);
+    transform: translateY(-160vh) rotate(3deg);
+    opacity: 0.3;
   }
   100% {
-    transform: translateY(-110vh) rotate(-3deg);
+    transform: translateY(-370vh) rotate(-3deg);
     opacity: 0;
   }
 }

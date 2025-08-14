@@ -11,7 +11,7 @@ export default function IntroPage() {
   return (
     <div className="intro">
       <div className="love-container" onClick={handleClick}>
-        ❤️
+        ❤️‍🩹
       </div>
       <p className="hint">Click the heart to start</p>
     </div>
